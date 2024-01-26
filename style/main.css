@@ -96,9 +96,8 @@ html {
   
   
   .six {
-    position: absolute;
-    top: 10vh;
-    margin: 0 auto;
+    position: relative;
+    top: 3vh;
     z-index: 1;
   }
   
