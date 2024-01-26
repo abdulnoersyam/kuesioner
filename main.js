@@ -101,7 +101,7 @@ const animationTimeline = () => {
     .to(".fake-btn", 0.1, {
         backgroundColor: "rgb(127, 206, 248)",
     },
-    "+=4")
+    "+=1.5")
     .to(
         ".four",
         0.5, {
@@ -194,7 +194,7 @@ const animationTimeline = () => {
             y: -25,
             rotationZ: -45,
         },
-        "-=2"
+        "+=1.5"
     )
     .from(".hat", 0.5, {
         x: -100,
@@ -253,7 +253,7 @@ const animationTimeline = () => {
         y: 30,
         zIndex: "-1",
     },
-    "+=2")
+    "+=1.5")
     .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
     .to(
         ".last-smile",
